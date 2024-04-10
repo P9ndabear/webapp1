@@ -1,0 +1,16 @@
+.menu-container {
+    background-color: #d6d6d6;
+    padding: 1%;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+.naam {
+    font-size:200%;
+    margin-bottom: 1%;
+}
+
+.omschrijving {
+    font-size: 150%;
+}

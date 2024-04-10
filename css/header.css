@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+
+.header-nav-links {
+    display: flex;
+    font-size: 200%;
+    gap: 100px;
+    
+}
+
+.logo { 
+    width: 15%;
+}
+
+.button-box {
+    padding: 1.5%;
+}
+
+.button {
+    padding: 8px 22px;
+    border-radius: 10px;
+    font-size: 200%;
+    border: 1px solid black;
+}

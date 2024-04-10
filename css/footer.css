@@ -1,0 +1,50 @@
+li, a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: #d6d6d6;
+    margin-top: 5%;
+    height: 450px;
+}
+
+.logo-box {
+    margin-top: 5.5%;
+}
+
+.snelle-links-text {
+    font-size: 300%;
+}
+
+.footer-nav-links {
+    font-size: 200%;
+}
+
+.Timotej-Žana {
+    font-size: 250%;
+    margin-top: 11%;
+}
+
+.Timotej-Žana-text {
+    font-size: 200% ;
+    width: 400px;
+}
+
+.contact-button {
+    background-color:darkgray;
+    padding: 8px 22px;
+    border-radius: 5px;
+    font-size: 200%;
+}
+
+.adresgegevens-head {
+    font-size: 300%;
+}
+
+.adresgegevens-text {
+    font-size: 150%;
+}

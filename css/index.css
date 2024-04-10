@@ -1,0 +1,66 @@
+.restaurant-image {
+    width: 100%;
+    height: 650px;
+}
+
+.introduction-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -5%;
+}
+
+.introduction {
+    font-size: 400%;
+}
+
+.introduction-text {
+    margin: 1% 10%;
+    font-size: 250%;
+}
+
+.openingstijd-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.openingstijd-text {
+    display: flex;
+    align-items: center;
+    font-size: 300%;
+    width: 400px;
+}
+
+.openingstijd-picture {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+
+.onsMenu {
+    font-size: 300%;
+}
+
+.introduction-menu-text {
+    margin: 1% 10%;
+    font-size: 250%;
+}
+
+.button-menu-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+.button-menu {
+    background-color: #D9D9D9;
+    font-size: 300%;
+    padding: 2.5% 7.5%;
+    border-radius: 10px;
+}
