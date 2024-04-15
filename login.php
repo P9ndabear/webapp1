@@ -1,3 +1,14 @@
+<?php 
+    session_start();
+if (isset($_POST['login'])) {
+    if ($_POST['username'] == "admin" && $_POST['password'] == "geheim") {
+        $_SESSION['username'] = "admin";
+        header(header:"Location: admin.php");
+    }
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="css/login.css" />

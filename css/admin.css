@@ -1,0 +1,30 @@
+.toevoegen-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.toevoegen-button {
+    background-color: #d6d6d6;
+    padding: 2.5% 7.5%;
+    border-radius: 10px;
+    font-size: 200%;
+}
+
+.menu-container {
+    background-color: #d6d6d6;
+    padding: 1%;
+    border-radius: 20px;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+.naam {
+    font-size:200%;
+    margin-bottom: 1%;
+}
+
+.omschrijving {
+    font-size: 150%;
+}
