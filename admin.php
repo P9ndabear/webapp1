@@ -1,10 +1,10 @@
 <?php
-    session_start();
-    if(isset($_SESSION['username'])) {
-        // Loged in
-    } else {
-        header (header:"Location: login.php");
-    }
+session_start();
+if (isset($_SESSION['username'])) {
+    // Logged in
+} else {
+    header(header: "Location: login.php");
+}
 
 ?>
 
@@ -23,9 +23,12 @@
 <?php include "includes/header.php" ?>
 
 <body>
-    <div class="toevoegen-container">
-<a class ="toevoegen-button" href="update.php" Toevoegen>Toevoegen</a>
-</div>
+    <div class="top-container">
+        <a class="top-button" href="create.php" Toevoegen>Toevoegen</a>
+    </div>
+    <div class="top-container">
+        <a class="top-button" href="logout.php" Uitloggen>Uitloggen</a>
+    </div>
 
     <?php
     $sql = "SELECT * FROM gerechten";
@@ -35,8 +38,12 @@
         echo "<div class='menu-container'>" .
             "<div class='naam'>" . $gerechten["naam"] . "</div>";
         echo "<div class='omschrijving'>" . $gerechten["omschrijving"] . "</div>";
+        echo "<form method='post' action='update.php'>";
+        echo "<input type='submit' name='bijwerken' value='Bijwerken'>";
+        echo "</form>";
         echo "<form method='post' action='deleteLogic.php'>";
-        echo "<input type='submit' name='product_id' value='Verwijderen'>";
+        echo "<input type='hidden' name='id' value='" . $gerechten['id'] . "' />";
+        echo "<input type='submit' name='delete' value='Verwijderen'>";
         echo "</form>";
 
 

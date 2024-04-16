@@ -5,8 +5,8 @@
     <label>Naam</label>
     <input type="text" name="naam" placeholder="Naam">
 
-    <label>omschrijving</label>
-    <input type="text" name="omschrijving" placeholder="omschrijving">
+    <label>Omschrijving</label>
+    <input type="text" name="omschrijving" placeholder="Omschrijving">
 
-    <input type="submit" value="Toevoegen">
+    <input type="submit" value="Bijwerken">
 </form>

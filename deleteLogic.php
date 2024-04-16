@@ -2,10 +2,10 @@
 <?php require_once "includes/connect.php" ?>
 
 <?php
-$id = $_GET['id'];
-$sql = "DELETE FROM gerechten WHERE id =:id";
-$prepare =$connection->prepare($sql);
-$prepare->bindParam(':id', $id);
+$sql = "DELETE FROM gerechten 
+        WHERE id =:id";
+$prepare = $connection->prepare($sql);
+$prepare->bindParam(':id', $_POST['id']);
 $prepare->execute();
 header("Location: admin.php");
 

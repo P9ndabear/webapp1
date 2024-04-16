@@ -21,7 +21,7 @@ if (isset($_POST['login'])) {
 <?php include "includes/header.php" ?>
 
 <body>
-    <form name="login-form" action="form.php" method="post">
+    <form name="login-form" action="login.php" method="post">
         <p>Username:<input type="text" name="username"></p>
         <p>Password:<input type="text" name="password"></p>
         <input type="submit" name="login" value="Login">
