@@ -38,8 +38,9 @@ if (isset($_SESSION['username'])) {
         echo "<div class='menu-container'>" .
             "<div class='naam'>" . $gerechten["naam"] . "</div>";
         echo "<div class='omschrijving'>" . $gerechten["omschrijving"] . "</div>";
-        echo "<form method='post' action='update.php'>";
-        echo "<input type='submit' name='bijwerken' value='Bijwerken'>";
+        echo "<form method='get' action='update.php'>";
+        echo "<input type='hidden' name='id' value='" . $gerechten['id'] . "' />" ;
+        echo "<input type='submit' name='update' value='Bijwerken'>";
         echo "</form>";
         echo "<form method='post' action='deleteLogic.php'>";
         echo "<input type='hidden' name='id' value='" . $gerechten['id'] . "' />";
