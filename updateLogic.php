@@ -12,5 +12,6 @@ $stmt->bindParam(":id", $_POST['id']);
 $stmt->bindParam(":naam", $_POST['naam']);
 $stmt->bindParam(":omschrijving", $_POST['omschrijving']);
 $stmt->execute();
+header("Location: admin.php");
 
 ?>
