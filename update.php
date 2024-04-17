@@ -16,6 +16,9 @@ $gerechten = $stmt->fetch();
     <label>Omschrijving</label>
     <input type="text" name="omschrijving" value="<?php echo $gerechten['naam'] ?>">
 
+    <label>Prijs</label>
+    <input type="text" name="prijs" value="<?php echo $gerechten['prijs'] ?>">
+
     <input type="hidden" name="id" value="<?php echo $gerechten['id'] ?>">
 
 

@@ -38,6 +38,7 @@ if (isset($_SESSION['username'])) {
         echo "<div class='menu-container'>" .
             "<div class='naam'>" . $gerechten["naam"] . "</div>";
         echo "<div class='omschrijving'>" . $gerechten["omschrijving"] . "</div>";
+        echo "<div class='prijs'>" . $gerechten["prijs"] . "</div>";
         echo "<form method='get' action='update.php'>";
         echo "<input type='hidden' name='id' value='" . $gerechten['id'] . "' />" ;
         echo "<input type='submit' name='update' value='Bijwerken'>";

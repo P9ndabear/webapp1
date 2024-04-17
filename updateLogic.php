@@ -2,7 +2,6 @@
 <?php require_once "includes/connect.php" ?>
 
 <?php
-var_dump($_POST);
 $sql = "UPDATE gerechten
         SET naam = :naam, omschrijving = :omschrijving
         WHERE id = :id";        
