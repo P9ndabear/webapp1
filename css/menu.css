@@ -6,6 +6,10 @@
     border: 2px solid black;
 }
 
+.prijs-container {
+    display: flex;
+}
+
 .naam {
     font-size:200%;
     margin-bottom: 1%;
@@ -14,3 +18,8 @@
 .omschrijving {
     font-size: 150%;
 }
+
+.prijs {
+    font-size: 150%;
+    margin-top: 1%;
+}   

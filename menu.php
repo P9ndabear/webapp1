@@ -28,6 +28,10 @@
         echo "<div class='menu-container'>" .
             "<div class='naam'>" . $gerechten["naam"] . "</div>";
         echo "<div class='omschrijving'>" . $gerechten["omschrijving"] . "</div>";
+        echo "<div class='prijs-container'>";
+        echo "<p class='prijs'>€</p>";
+        echo "<div class='prijs'>" . $gerechten["prijs"] . "</div>";
+        echo "</div>";
         echo "</div>";
     }
     ?>
