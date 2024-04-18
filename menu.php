@@ -13,6 +13,13 @@
 <?php include "includes/header.php" ?>
 
 <body>
+
+    <form method="post" action="searchbar.php">
+        <input type="text" name="search" placeholder="Search">
+        <input type="submit" name="submit-search">
+
+    </form>
+
     <?php
     $sql = "SELECT * FROM gerechten";
     $stmt = $connection->query($sql);
