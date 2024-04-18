@@ -22,8 +22,8 @@ if (isset($_POST['login'])) {
 
 <body>
     <form name="login-form" action="login.php" method="post">
-        <p>Username:<input type="text" name="username"></p>
-        <p>Password:<input type="text" name="password"></p>
+        <p>Username:<input REQUIRED type="text" name="username"></p>
+        <p>Password:<input REQUIRED type="password" name="password"></p>
         <input type="submit" name="login" value="Login">
     </form>
 </body>
