@@ -5,10 +5,10 @@
     <label>Naam</label>
     <input type="text" name="naam" placeholder="Naam">
 
-    <label>omschrijving</label>
+    <label>Omschrijving</label>
     <input type="text" name="omschrijving" placeholder="Omschrijving">
 
-    <label>prijs</label>
+    <label>Prijs</label>
     <input type="text" name="prijs" placeholder="Prijs">
 
     <input type="submit" value="Toevoegen">
