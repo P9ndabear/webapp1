@@ -14,7 +14,7 @@
 
 <body>
 
-    <form method="post" action="searchbar.php">
+    <form method="get" action="searchbar.php">
         <input type="text" name="search" placeholder="Search">
         <input type="submit" name="submit-search">
 

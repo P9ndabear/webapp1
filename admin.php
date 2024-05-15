@@ -30,6 +30,12 @@ if (isset($_SESSION['username'])) {
         <a class="top-button" href="logout.php" Uitloggen>Uitloggen</a>
     </div>
 
+    <form method="get" action="searchbar.php">
+        <input type="text" name="search" placeholder="Search">
+        <input type="submit" name="submit-search">
+
+    </form>
+
     <?php
     $sql = "SELECT * FROM gerechten";
     $stmt = $connection->query($sql);
